@@ -8,12 +8,12 @@
     tools:context=".MainActivity">
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/btnCmr"
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:layout_marginBottom="65dp"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton6"
+        app:layout_constraintBottom_toTopOf="@+id/btnCnt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,19 +22,19 @@
         app:srcCompat="@drawable/camara" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/btnCnt"
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:layout_marginBottom="100dp"
         android:scaleType="fitCenter"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton7"
+        app:layout_constraintBottom_toTopOf="@+id/btnLct"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/contactos" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/btnLct"
         android:layout_width="350dp"
         android:layout_height="100dp"
         android:layout_marginBottom="152dp"
