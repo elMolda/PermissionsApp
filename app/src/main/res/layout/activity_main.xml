@@ -9,39 +9,40 @@
 
     <ImageButton
         android:id="@+id/btnTpr"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginBottom="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/btnCnt"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.716"
         app:srcCompat="@drawable/camara" />
 
     <ImageButton
         android:id="@+id/btnCnt"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toTopOf="@+id/btnLct"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTpr"
         app:srcCompat="@drawable/contactos" />
 
     <ImageButton
         android:id="@+id/btnLct"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:layout_marginBottom="152dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCnt"
         app:srcCompat="@drawable/location" />
 </androidx.constraintlayout.widget.ConstraintLayout>
