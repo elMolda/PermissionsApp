@@ -151,8 +151,8 @@ public class CameraActivity extends AppCompatActivity {
 
                         // check for permanent denial of any permission
                         if (report.isAnyPermissionPermanentlyDenied()) {
-                            System.out.print(report.getDeniedPermissionResponses());
-                            Toast.makeText(getApplicationContext(), "Faltan permisos. Funcionalidad Limitada!", Toast.LENGTH_SHORT).show();
+                            System.out.print(report.getDeniedPermissionResponses().toString());
+                            Toast.makeText(getApplicationContext(), report.getDeniedPermissionResponses().toString(), Toast.LENGTH_SHORT).show();
                         }
                     }
 

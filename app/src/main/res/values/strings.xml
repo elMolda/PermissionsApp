@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Taller2App</string>
     <string name="tltTpr">Imágenes</string>
-    <string name="btnGlry">Imagen de Galeria</string>
+    <string name="btnGlry">Galería</string>
     <string name="btnTpr">Tomar Foto</string>
     <string name="tltLct">Localización</string>
     <string name="lblLtd">Latitud</string>
